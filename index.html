@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="foodie.css">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="foodie.js"></script>
+	<script type="text/javascript" src="jquery-min.js"></script>
+	<title>Foodie</title>
+</head>
+
+<body class="body" onload="nav()">
+	<div id ="loader">
+		<div>
+			<img src="circle4.svg">
+			<text>Foodie</text>
+		</div>
+	</div>
+	<header class="header">
+		<div class="logocontainer">
+			<p>Foodie</p>
+		</div>
+		<div class="navbuttons">
+			<ul class="pcnav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="explore.html">Gallery</a></li>
+				<li><a href="login.html">Order</a></li>
+				<li><a class="pccontact" href="#">Contact</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</div>
+		<div class="hamburger">
+			<span class="line1"></span>
+			<span class="line2"></span>
+			<span class="line3"></span>
+		</div>
+		<div class="hamburger2">
+			<span class="line4"></span>
+			<span class="line5"></span>
+			<span class="line6"></span>
+		</div>
+	</header>
+	<div class="navclose"></div>
+	<div class="mobilenav">
+		<ul>
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="explore.html">Gallery</a></li>
+			<li><a href="login.html">Order</a></li>
+			<li><a href="#" class="mobilecontact">Contact</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+		<div class="navfooter">
+			<div class="socials">
+				<img src="facebook1.svg">
+				<img src="instagram.svg">
+				<img src="twitter.svg">
+			</div>
+			<div class="navterms">
+				<p>2020</p>
+				<p>Foodie inc</p>
+				<p>Terms of Service</p>
+				<p>Privacy Policy</p>
+			</div>
+		</div>
+	</div>
+	<main class="main">
+		<div class="socialmedia">
+			<a href=""><img src="facebook1.svg"></a>
+			<a href=""><img src="instagram.svg"></a>
+			<a href=""><img src="twitter.svg"></a>
+		</div>
+		
+		<div class="searchbarcontainer">
+			<div class="searchbar1">
+				<table>
+					<tr>
+						<td>
+							<input type="text" placeholder="Search" class="search">
+						</td>
+						<td class="icon">
+							<a href="#"><img src="search.svg"></a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="mobilesearch">
+				<img src="search.svg">
+			</div>
+			<div class="cartcontainer">
+				<a href="login.html" class="cart">
+					<img src="cart5.png">
+				</a>
+				<a style="background: rgba(251, 119, 86, 0.5);" href="login.html" class="cart">
+					<img src="user.svg">
+				</a>
+			</div>
+		</div>
+		<div class="cta">
+			<div class="rightpane">
+				<div class="ctatexts">
+					<p class="ctabigtext1" style="margin-bottom: 20px;">Foodie</p>
+					<p class="ctabigtext">Order Tasty <mark>Meals</mark> Everyday Anyday</p>
+					<p class="ctasmalltext">You need eat, we've got eat. Order and book today.</p>
+				</div>
+				<div class="ctabuttons">
+					<div class="ctaexplore">
+						<a href="explore.html"><div class="ctaexplorebutton"><span>EXPLORE</span></div></a>
+					</div>
+					<div class="ctaorder">
+						<a href="login.html"><div class="ctaorderbutton"><span>ORDER</span></div></a>
+					</div>
+				</div>
+			</div>
+			<div class="specialscontainer">
+				<div class="specials">
+					<span>Our Specials</span>
+					<div class="specialsimages">
+						<img src="special 1.png">
+						<img src="special 2.png">
+						<img src="special 3.png">
+						<img src="special 4.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bannerscontainer">
+			<div class="bannersintro">
+				<div class="p1bannercontainer"><p class="p1banner">How We Work</p></div>
+				<p class="p2banner">Its Simple, You Order,<br>We Deliver your Order, You Enjoy your Meal.</p>
+				<p class="p3banner">Order your meal using site/app, set delivery dates and time<br>and we will deliver in record time.</p>
+			</div>
+		</div>
+		<div class="bannerorder">
+			<a href="login.html"><div class="bannerorderbutton"><span>ORDER</span></div></a>
+		</div>
+		<div class="banners">
+			<div class="banner">
+				<img src="food.png">
+				<p><b>Order</b><br>Place an Order or book an event</p>
+			</div>
+			<div class="banner">
+				<img src="deliver.png">
+				<p><b>Delivery</b><br>Get your meals or service delivered</p>
+			</div>
+			<div class="banner">
+				<img src="diet.png">
+				<p><b>Enjoy</b><br>Enjoy your delicious healthy meal</p>
+			</div>
+		</div>
+		<div class="servicemottocontainer"><p>Service Motto</p></div>
+
+		<div class="servicecontainer">
+			<img src="service.png">
+			<p>We are a new small business dedicated to excellent customer service and exemplary satisfaction.Our selection of meals ranges from indigenous to foreign cuisine, fast food to vegan and pastries.</p>
+		</div>
+
+		<div class="optionscontainer">
+			<div class="optionstitle"><p>Our Options</p></div>
+			<div class="options">
+				<div class="option1">
+					<p>Choose from our wide<br>selection of chefs</p>
+					<img src="chef.svg">
+				</div>
+				<div class="option2">
+					<p>A wide range of<br>healthy, tasty foods</p>
+					<img src="bakery.svg">
+				</div>
+			</div>
+		</div>
+		<div class="referal">
+			<p class="referalbig">Say goodbye to slow services at the restaurant and<br>get 20% off for your first order/booking.</p>
+			<p class="referalsmall">Get promo code and get 5% off on your order for every referall that signs up.</p>
+			<div class="referalorder">
+				<a href="login.html"><div class="referalorderbutton"><span>ORDER NOW</span></div></a>
+			</div>
+		</div>
+	</main>
+	<div class="contactcontainer">
+		<div class="contactbox">
+			<div class="closebar">
+				<img class="pccontactclose" src="close.svg">
+			</div>
+			<div class="contact">
+				<div class="contacttexts">
+					<span>Contact Us;</span><br>
+					<span>foodiehelpdesk.email.com</span><br>
+					<span>+25475678919</span><br>
+					<span>+25471249876</span>
+				</div>
+				<div class="contactsocials">
+					<img src="facebook1.svg">
+					<img src="instagram.svg">
+					<img src="twitter.svg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="searchboxcontainer">
+		<div class="searchbox">
+			<div class="searchclosebar">
+				<p style="padding: 10px 0px 0px 10px;">Search</p>
+				<img class="searchclose" src="close.svg">
+			</div>
+			<div class="searchbarcontainer3">
+				<div class="searchbar3">
+					<table>
+						<tr>
+							<td>
+								<input type="text" placeholder="Search" class="search3">
+							</td>
+							<td class="icon">
+								<a href="#"><img src="search.svg"></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="ctaorder">
+					<a href="#"><div class="ctasearch"><span>Search</span></div></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<footer class="footers">
+		<ul class="terms">
+			<li>2020</li>
+			<li>Foodie inc</li>
+			<li>Terms of Service</li>
+			<li>Privacy Policy</li>
+		</ul>
+		<p>Foodie is dedicated to quality service delivery, affordable prices and<br>most importantly delicious meals.</p>
+
+	</footer>
+	<div class="circles">
+		<img src="circle1.svg" style="position:absolute;top: 7pc;right: 21pc;z-index: -1;opacity: 0.2;height: 50px;">
+		<img style="position: absolute;top: 112pc;z-index: -1;opacity: 1;right: 22pc;height: 20px;" src="circle3.svg">
+		<img src="circle2.svg" style="position:absolute;top: 19pc;right: 3pc;z-index: -1;opacity: 0.4;height: 23px;">
+		<img src="circle4.svg" style="position:absolute;top: 48pc;right: 4pc;z-index: -1;opacity: 0.3;height: 31px;">
+		<img src="circle5.svg" style="position:absolute;top: 57pc;right: 21pc;z-index: -1;opacity: 1;height: 40px;">
+		<img src="circle6.svg" style="position:absolute;top: 125pc;right: 2pc;z-index: -1;opacity: 1;height: 30px;">
+	</div>
+	<script type="text/javascript" src="foodie.js"></script>
+</body>
+</html>
